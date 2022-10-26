@@ -14,6 +14,7 @@ bars.onclick = function () {
     
 
 }
+https://github.com/Omoleiruafemi/Aneeka_interiors-
 
 closemenu.onclick = function() {
     side.style.display = 'none';

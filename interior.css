@@ -12,7 +12,8 @@
     
 }
 .interior {
-    margin-left: 5px;
+    /* margin-left: 5px; */
+    padding: 0 7px;
 }
 .slogan {
     font-size: x-large;
@@ -58,7 +59,8 @@ img {
     margin-bottom: 60px;
     }
 nav  li {
-    padding: 10px;
+    padding: 11px;
+    text-align: center;
     font-size: x-large;
     list-style: none;
 
@@ -67,7 +69,7 @@ nav  li {
 
 .mySideNav a:hover {
     color: black;
-    font-weight: 10;
+    font-weight: 30;
     background-color: white;
     padding: 8px;
     border-radius: 18px;
@@ -78,39 +80,43 @@ nav  li {
 }
 .Unfazed {
     padding-top: 100px;
-    font-weight: bolder;
-    font-size: 4rem;
+    font-size: xx-large;
 }
 span {
     background-color: rgb(2, 65, 12);
     color: rgb(2, 65, 12);
     border-radius: 8px;
+    font-size: small;
     
 }
 #showcase {
     color: rgb(2, 65, 12);
+    font-size: 60px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #services {
     color: rgb(2, 65, 12);
-    font-size: 50px;
+    font-size: 60px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #packages {
     color: rgb(2, 65, 12);
+    font-size: 60px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #designers {
     color: rgb(2, 65, 12);
+    font-size: 60px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #contact {
     color: rgb(2, 65, 12);
+    font-size: 60px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-h1 {
-    font-size: 40px;
-}
+/* h1 {
+     font-size: 37px; 
+} */
 .first {
     grid-column:1/2;
     grid-row: 1/2;
@@ -161,6 +167,7 @@ h1 {
     padding-right: 10px;
     
 }
+
 .container {
     box-shadow:2px 1px 3px 2px rgba(0, 0, 0, 0.4);
     text-align: center;
@@ -242,7 +249,7 @@ button:hover {
     border-radius: 5px;
 }
 .end a {
-    color: white;
+    color: white; 
     text-decoration: none;
 }
 .end{
@@ -258,17 +265,58 @@ button:hover {
      border-radius: 20px;
     box-shadow:0px 0px 0px 0px rgba(0, 0, 0, 0.4);
  } 
-/* @media screen and (max-width: 750px) { }*/
-
+@media screen and (min-width: 290px) {
+    .reduce{
+        font-size: 30px;
+        
+    }
+    .bar{
+        font-size: 20px;
+    }
+    .Unfazed{
+        font-size: 68px;
+    }
+    
+ }
+@media screen and (max-width: 290px) {
+    .reduce{
+        font-size: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+    .mySideNav a {
+        font-size: 20px;
+    }
+    .mySideNav a:hover {
+        padding: 6px;
+    }
+    .close {
+        font-size: large;
+    }
+    .bar{
+        font-size: 20px;
+    }
+    .Unfazed{
+        font-size: 40px;
+    }
+    .slogan {
+        font-size: 12px;
+    }
+    #showcase, #services, #designers, #Packages, #Contact {
+        font-size: 35px;
+    }
+ }
+ 
 .top_nav {
     background-color: #053a07;
     color: white;
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 0.6em;
-    font-size: 2rem;
-    letter-spacing: 1px;
+    padding: 0.7rem;
+    font-size: 2.2rem;
+    letter-spacing: 0.6px;
     display: none;
 }
 .top_nav b {
@@ -276,22 +324,23 @@ button:hover {
 }
 .close {
     display: none;
+    
 }
 p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .bar {
     
-    padding: 5px;
+    padding: 4px;
     border: 3px solid rgba(141, 139, 139, 0.781);
     
 }
 
 .bar:hover {
     background-color: rgba(83, 83, 83, 0.781);
-    padding: 7px;
+    padding: 8px;
 }
 .close {
     text-align: center;
@@ -299,7 +348,7 @@ p {
 }
 .close:hover {
     text-align: center;
-    background-color: rgba(83, 83, 83, 0.781);
+    background-color: rgba(70, 70, 70, 0.781);
     padding: 7px;
 
 }
@@ -345,6 +394,9 @@ li {
     list-style: none;
 }
 
+.tired {
+    margin-top: -10px;
+}
 @media (max-width: 752px) {
     .table-package {
         display: block;
